@@ -287,6 +287,32 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480536,
   },
   {
+    avatar: "1f978",
+    name: "iOS Objective-C 工程师",
+    context: [
+      {
+        id: "doctor-0",
+        role: "user",
+        content:
+          "现在你是世界上最顶尖的 iOS Objective-C 语言工程师，你需要为我解答相关的代码问题，从各个角度来现最优的代码。你给出的代码要非常符合 iOS 的规范。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+    createdAt: 1688899480536,
+  },
+  {
     avatar: "1f4b8",
     name: "创业点子王",
     context: [
