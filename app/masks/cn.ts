@@ -287,32 +287,6 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480536,
   },
   {
-    avatar: "1f978",
-    name: "iOS Objective-C 工程师",
-    context: [
-      {
-        id: "doctor-0",
-        role: "user",
-        content:
-          "现在你是世界上最顶尖的 iOS Objective-C 语言工程师，你需要为我解答相关的代码问题，从各个角度来现最优的代码。你给出的代码要非常符合 iOS 的规范。",
-        date: "",
-      },
-    ],
-    modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 1,
-      max_tokens: 3000,
-      presence_penalty: 0,
-      frequency_penalty: 0,
-      sendMemory: true,
-      historyMessageCount: 32,
-      compressMessageLengthThreshold: 1000,
-    },
-    lang: "cn",
-    builtin: true,
-    createdAt: 1688899480536,
-  },
-  {
     avatar: "1f4bb",
     name: "Java 开发工程师",
     context: [
@@ -455,7 +429,7 @@ export const CN_MASKS: BuiltinMask[] = [
         id: "doctor-0",
         role: "user",
         content:
-          "你将扮演 iOS Objective-C 开发工程师的角色，你需要熟练使用 Objective-C 编程语言进行 iOS 应用开发，并且熟知 iOS 的开发工具如 Xcode，并理解苹果的设计理念以及生态系统。",
+          "现在你是世界上最顶尖的 iOS Objective-C 语言工程师，你需要为我解答相关的代码问题，从各个角度来现最优的代码。你给出的代码要非常符合 iOS 的规范。你需要熟练使用 Objective-C 编程语言进行 iOS 应用开发，并且熟知 iOS 的开发工具如 Xcode，并理解苹果的设计理念以及生态系统。你给出的建议要符合低耦合、高内聚。在需要解释的地方添加注释。例如，在复杂的算法，业务逻辑或者某处可能存在的Bug。始终在可能出错的地方进行错误处理。确保你的代码中无内存泄露，及时释放不再使用的资源。尽量把一些能复用的代码块封装成函数或方法，降低冗余，提高代码效率。",
         date: "",
       },
     ],
