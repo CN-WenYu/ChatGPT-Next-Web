@@ -30,6 +30,8 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 
 
 [<img src="https://vercel.com/button" alt="Deploy on Zeabur" height="30">](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FChatGPTNextWeb%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=nextchat&repository-name=NextChat) [<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="30">](https://zeabur.com/templates/ZBUEFA)  [<img src="https://gitpod.io/button/open-in-gitpod.svg" alt="Open in Gitpod" height="30">](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
 
+[<img src="https://github.com/user-attachments/assets/903482d4-3e87-4134-9af1-f2588fa90659" height="60" width="288" >](https://monica.im/?utm=nxcrp)
+
 </div>
 
 ## Enterprise Edition
@@ -91,7 +93,8 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 - [x] Artifacts: Easily preview, copy and share generated content/webpages through a separate window [#5092](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web/pull/5092)
 - [x] Plugins: support artifacts, network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
   - [x] artifacts
-  - [ ] network search, network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+  - [ ] network search, calculator, any other apis etc. [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+- [ ] local knowledge base
 
 ## What's New
 
@@ -128,6 +131,7 @@ For enterprise inquiries, please contact: **business@nextchat.dev**
 - [x] 插件机制，支持 artifacts，联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
    - [x] artifacts
    - [ ] 支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+ - [ ] 本地知识库
 
 ## 最新动态
 
@@ -279,6 +283,18 @@ Alibaba Cloud Api Key.
 ### `ALIBABA_URL` (optional)
 
 Alibaba Cloud Api Url.
+
+### `IFLYTEK_URL` (Optional)
+
+iflytek Api Url.
+
+### `IFLYTEK_API_KEY` (Optional)
+
+iflytek Api Key.
+
+### `IFLYTEK_API_SECRET` (Optional)
+
+iflytek Api Secret.
 
 ### `HIDE_USER_API_KEY` (optional)
 
